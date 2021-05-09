@@ -1,0 +1,45 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "be.g00glen00b.apps.web.WebSocketConfiguration",
+      "name": "",
+      "type": "be.g00glen00b.apps.web.WebSocketConfiguration"
+    },
+    {
+      "sourceType": "be.g00glen00b.apps.web.WebSocketProperties",
+      "name": "app.websocket",
+      "type": "be.g00glen00b.apps.web.WebSocketProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "be.g00glen00b.apps.web.WebSocketProperties",
+      "defaultValue": [],
+      "name": "app.websocket.allowed-origins",
+      "description": "Allowed origins",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "be.g00glen00b.apps.web.WebSocketProperties",
+      "defaultValue": "\/topic",
+      "name": "app.websocket.application-prefix",
+      "description": "Prefix used for WebSocket destination mappings",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "be.g00glen00b.apps.web.WebSocketProperties",
+      "defaultValue": "\/live",
+      "name": "app.websocket.endpoint",
+      "description": "Endpoint that can be used to connect to",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "be.g00glen00b.apps.web.WebSocketProperties",
+      "defaultValue": "\/topic",
+      "name": "app.websocket.topic-prefix",
+      "description": "Prefix used by topics",
+      "type": "java.lang.String"
+    }
+  ]
+}
